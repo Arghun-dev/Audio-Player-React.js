@@ -1,0 +1,11 @@
+.audioControlSectionRoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.audioControlSectionRootSmallScreen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

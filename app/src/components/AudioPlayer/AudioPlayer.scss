@@ -1,0 +1,11 @@
+.audioPlayerRoot {
+  background-color: #F8F9FD;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+
+  .controlBar {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

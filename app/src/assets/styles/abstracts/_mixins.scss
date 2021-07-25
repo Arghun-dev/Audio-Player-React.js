@@ -1,0 +1,49 @@
+/** General dynamic sass style */
+
+@mixin padding($values...) {
+  @each $var in $values {
+    padding: #{$var};
+  }
+}
+
+@mixin margin($values...) {
+  @each $var in $values {
+    margin: #{$var};
+  }
+}
+
+@mixin box-shadow($color, $values...) {
+  @each $var in $values {
+    box-shadow: #{$var} $color;
+  }
+}
+
+@mixin solid-border($color, $values...) {
+  @each $var in $values {
+    border: #{$var} solid $color;
+  }
+}
+
+@mixin solid-top-border($color, $values...) {
+  @each $var in $values {
+    border-top: #{$var} solid $color;
+  }
+}
+
+@mixin solid-bottom-border($color, $values...) {
+  @each $var in $values {
+    border-bottom: #{$var} solid $color;
+  }
+}
+
+@mixin solid-right-border($color, $values...) {
+  @each $var in $values {
+    border-right: #{$var} solid $color;
+  }
+}
+
+@mixin solid-left-border($color, $values...) {
+  @each $var in $values {
+    border-left: #{$var} solid $color;
+  }
+}

@@ -1,0 +1,45 @@
+@import '../../../../assets/styles/abstracts/foundation.scss';
+
+.loadingBtnContainer {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+
+  @include respond(tab-port) {
+    margin-right: 12px;
+  }
+}
+
+.icon {
+  cursor: pointer;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.spin_loader {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  border-top: 2px solid #409EDC;
+  border-right: 2px solid rgba(0,0,0,0.1);
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  border-left: 2px solid #409EDC;
+  border-radius: 50%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: spinner-loader 1s infinite linear;
+  animation: spinner-loader 1s infinite linear;
+}
+
+@keyframes spinner-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

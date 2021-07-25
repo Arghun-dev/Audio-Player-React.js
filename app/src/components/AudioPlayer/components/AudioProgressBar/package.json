@@ -1,0 +1,6 @@
+{
+  "name": "audio-progress-bar",
+  "version": "0.0.0",
+  "private": "true",
+  "main": "AudioProgressBar.js"
+}

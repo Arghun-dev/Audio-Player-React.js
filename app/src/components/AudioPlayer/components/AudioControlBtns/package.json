@@ -1,0 +1,6 @@
+{
+  "name": "audio-control-btns",
+  "version": "0.0.0",
+  "private": "true",
+  "main": "AudioControlBtns.js"
+}

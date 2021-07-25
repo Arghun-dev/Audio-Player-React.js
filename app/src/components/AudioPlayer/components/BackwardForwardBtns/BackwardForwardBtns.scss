@@ -1,0 +1,12 @@
+@import '../../../../assets/styles/abstracts/foundation.scss';
+
+.icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+
+  @include respond(tab-port) {
+    margin-right: 12px;
+  }
+}

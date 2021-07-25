@@ -1,0 +1,114 @@
+/** Display styles */
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.center-items {
+  align-items: center;
+  justify-content: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.dir-row {
+  flex-direction: row;
+}
+
+.dir-column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/** Size styles */
+
+.fit-width {
+  width: 100%;
+}
+
+.fit-height {
+  height: 100%;
+}
+
+/** position styles */
+
+.absolute-fill-object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.relative-object {
+  position: relative;
+}
+
+/** show / hide */
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/** general */
+.center-text {
+  text-align: center;
+}
+
+.bold-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4c4c4c;
+}
